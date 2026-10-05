@@ -12,3 +12,4 @@ A simple Flutter app we built for our group project. It shows a list of products
 Just clone the repo and run `flutter run` in your terminal.
  
  
+ 
