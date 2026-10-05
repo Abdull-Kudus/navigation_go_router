@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../models/product.dart';
+import 'product_detail_page.dart';
 
 class ProductListPage extends StatelessWidget {
   const ProductListPage({super.key});
