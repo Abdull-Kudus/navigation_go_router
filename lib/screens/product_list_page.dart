@@ -60,7 +60,16 @@ class ProductListPage extends StatelessWidget {
         itemCount: products.length,
         itemBuilder: (context, index) {
           final product = products[index];
-          return Card(
+          return GestureDetector(
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => ProductDetailPage(product: product),
+                ),
+              );
+            },
+            child: Card(
             margin: const EdgeInsets.symmetric(horizontal: 6, vertical: 3),
             child: SizedBox(
               height: 90,
@@ -121,6 +130,7 @@ class ProductListPage extends StatelessWidget {
                 ],
               ),
             ),
+          );
           );
         },
       ),
