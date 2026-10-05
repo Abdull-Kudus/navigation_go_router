@@ -1,21 +1,13 @@
-# navigation_go_router
+# Product Navigation App
 
-A new Flutter project.
+A simple Flutter app we built for our group project. It shows a list of products like laptops, phones, and tablets.
 
-## Getting Started
+### What it does
+- Shows a list of products using a `ListView`.
+- When you tap on a product, it uses `Navigator.push` to open a details page.
+- You can see the full product info, price, and rating on the details page.
+- Hit the back button to return to the list.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
-Demo Link: https://youtu.be/DrCDRI_fGGI
-
-
+### How to run it
+Just clone the repo and run `flutter run` in your terminal.
+ 
